@@ -1,0 +1,45 @@
+June 2, 2023
+
+To Do:
+	Dig through https://github.com/openai/gpt-2 and become familiar with everything.
+	
+	At some point in a few days be able to "give the group a brief report about a) its inputs b) its outputs and c) what we need to execute this on Warloc"
+	
+Stuff:
+	From (GPT-2 Model Card and README.md) https://github.com/openai/gpt-2/blob/master/model_card.md and https://github.com/openai/gpt-2/blob/master/README.md
+		
+		Primary Use: 	To better understand the behaviors, capabilities, biases, and constraints of large-scale generative language models
+		
+		Secondary Use: 	Writing assistance: Grammar assistance, autocompletion (for normal prose or code)
+						Creative writing and art: exploring the generation of creative, fictional texts; aiding creation of poetry and other literary art.
+						Entertainment: Creation of games, chat bots, and amusing generations.
+						
+		List of sites GPT-2 gets data from https://github.com/openai/gpt-2/blob/master/domains.txt 
+	
+		Usage Caveats:
+			"GPT-2 models' robustness and worst case behaviors are not well-understood"
+			
+			"The dataset our GPT-2 models were trained on contains many texts with biases and factual inaccuracies, and thus GPT-2 models are 
+			 likely to be biased and inaccurate as well." https://twitter.com/TomerUllman/status/1101485289720242177 (bias example)
+			
+			"To avoid having samples mistaken as human-written, we recommend clearly labeling samples as synthetic before wide dissemination. 
+			 Our models are often incoherent or inaccurate in subtle ways, which takes more than a quick read for a human to notice"
+	
+
+June 3, 2023
+
+	Following YouTube videos to setup a GPT-2 environment (see urls below)
+	
+	https://www.youtube.com/watch?v=UH3mCaB7Quc&t=110s
+	https://www.youtube.com/watch?v=Ge_3_pyW_LU&t=268s
+	
+	Installed Anaconda Manager
+	In Environment:
+		Python 3.6.13 (Recommended by video author)
+		ms2
+		anaconda git
+		tensorflow version 1.14.0
+		install -r requirements.txt 
+		
+    Current issue, in the second video, they run a file named encode.py to train with, however, this file doesn't seem present in the version I downloaded. Need to figure this out before advancing.
+    
